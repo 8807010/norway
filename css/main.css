@@ -153,3 +153,65 @@ a {
 .page--ios .dis-scroll {
   position: relative;
 }
+
+.header {
+  position: relative;
+  /* aspect-ratio: 1920 / 1204; */
+  /* min-height: 100vh;
+    max-height: 1204px; */
+  height: 100vh;
+  background-color: #c4c4c4;
+  color: #fff;
+}
+
+.header-slider::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(181.06deg, rgba(0, 0, 0, 0.2) 0.91%, rgba(255, 255, 255, 0) 116.71%, rgba(255, 255, 255, 0) 116.72%);
+}
+
+.header__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* padding-top: 48px; */
+  padding-bottom: 82px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header Nav */
+.header-nav {
+  padding-left: 76px;
+  padding-right: 82px;
+  padding-top: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+}
+
+.nav {
+  display: flex;
+  column-gap: 65px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav__link {
+  color: #fff;
+}
