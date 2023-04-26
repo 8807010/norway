@@ -73,3 +73,37 @@
 }
 
 .extra-nav-btn {}
+
+
+.header-title {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.header-title__small {
+  position: absolute;
+  top: -8px;
+  width: 100%;
+
+  letter-spacing: 0.55em;
+  font-weight: 500;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+}
+
+.header-title__big {
+  font-size: 250px;
+  font-weight: 700;
+  margin: 0;
+
+  background: linear-gradient(21deg,
+      rgb(160 160 160) -3.87%,
+      rgb(255 255 255 / 0%) 36.89%),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
