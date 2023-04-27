@@ -1,7 +1,3 @@
-// import { tns } from "./node_modules/tiny-slider/src/tiny-slider";
-
-// import { tns } from './../vendor/tiny-slider';
-
 const slider = tns({
   container: '.header-slider',
   items: 1,
