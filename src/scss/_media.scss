@@ -1,0 +1,19 @@
+@media (max-width: 1670px) {
+  .header-title__small {
+    font-size: 20px;
+  }
+
+  .header-title__big {
+    font-size: 150px;
+  }
+
+  .header-tips {
+    column-gap: 15px;
+  }
+
+  .tip {
+    padding-left: 60px;
+    background-position: 15px 40px;
+    width: 23%;
+  }
+}
