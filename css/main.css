@@ -448,3 +448,29 @@ a {
     height: 60px;
   }
 }
+@media (max-width: 800px) {
+  .header-seemore,
+  .header-slider-controls,
+  .header-socials {
+    display: none;
+  }
+  .header-nav {
+    padding: 30px 40px 0;
+  }
+  .header-title__big {
+    font-size: 80px;
+  }
+  .tns-nav {
+    right: unset;
+    top: unset;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .tns-nav button {
+    width: 60px;
+    height: 2px;
+    flex-shrink: 0;
+  }
+}
