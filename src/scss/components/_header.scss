@@ -170,12 +170,27 @@
   gap: 30px;
 }
 
-.header-socials__link img {
-  transition: transform 0.3s ease-in-out;
+.header-socials__link {
+  display: block;
 }
 
-.header-socials__link img:hover {
-  transform: scale(1.2);
+.header-socials__link svg {
+  transition: fill .2s ease-in-out;
+  fill: #fff;
+  width: 30px;
+  height: 30px;
+}
+
+.header-socials__link--facebook:hover {
+  fill: #3f51b5;
+}
+
+.header-socials__link--twitter:hover {
+  fill: #03A9F4;
+}
+
+.header-socials__link--instagram:hover {
+  fill: url(#a)
 }
 
 .header-seemore {
