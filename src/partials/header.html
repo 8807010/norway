@@ -1,11 +1,11 @@
 <div class="header">
 
   <div class="header-slider">
-    <img src="./img/header/bg-1.jpg" alt="Bg 1" class="header-slider__item" />
-    <img src="./img/header/bg-2.jpg" alt="Bg 1" class="header-slider__item" />
-    <img src="./img/header/bg-3.jpg" alt="Bg 1" class="header-slider__item" />
-    <img src="./img/header/bg-4.jpg" alt="Bg 1" class="header-slider__item" />
-    <img src="./img/header/bg-5.jpg" alt="Bg 1" class="header-slider__item" />
+    <img src="./img/header/bg-1.jpg" alt="Bg 1" class="header-slider__item" aria-hidden="true" />
+    <img src="./img/header/bg-2.jpg" alt="Bg 2" class="header-slider__item" aria-hidden="true" />
+    <img src="./img/header/bg-3.jpg" alt="Bg 3" class="header-slider__item" aria-hidden="true" />
+    <img src="./img/header/bg-4.jpg" alt="Bg 4" class="header-slider__item" aria-hidden="true" />
+    <img src="./img/header/bg-5.jpg" alt="Bg 5" class="header-slider__item" aria-hidden="true" />
   </div>
 
   <div class="header-slider-controls">
@@ -27,8 +27,8 @@
         <img class="logo-text" src="./img/logo/logo-text.svg" alt="TRAVELx" />
       </div>
 
-      <ul class="nav list-reset">
-        <li class="nav__item ">
+      <ul class="nav list-reset" data-menu>
+        <li class="nav__item">
           <a href="#" class="nav__link">Destinations</a>
         </li>
         <li class="nav__item">
@@ -42,8 +42,8 @@
         </li>
       </ul>
 
-      <button class="extra-nav-btn btn-reset">
-        <img src="./img/icons/nav-icon.svg" alt="Nav btn" />
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger id="btn">
+        <span class="burger__line"></span>
       </button>
     </nav>
 
@@ -52,18 +52,18 @@
       <h1 class="header-title__big">Norway</h1>
 
       <ul class="header-socials list-reset">
-        <li>
-          <a href="#">
+        <li class="header-socials__list">
+          <a class="header-socials__link" href="#">
             <img src="./img/socials/facebook.svg" alt="Link" />
           </a>
         </li>
-        <li>
-          <a href="#">
+        <li class="header-socials__list">
+          <a class="header-socials__link" href="#">
             <img src="./img/socials/twitter.svg" alt="Link" />
           </a>
         </li>
-        <li>
-          <a href="#">
+        <li class="header-socials__list">
+          <a class="header-socials__link" href="#">
             <img src="./img/socials/instagram.svg" alt="Link" />
           </a>
         </li>
